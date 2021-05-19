@@ -26,7 +26,8 @@ function solution(P, S) {
    return totalCars
 }
 
-// solution([1, 4, 1], [1, 5, 1]) // 2
-// solution([4, 4, 2, 4], [5, 5, 2, 5]) // 3
-solution([2, 3, 4, 2], [2, 5, 7, 2]) // 2
+const sol1 = solution([1, 4, 1], [1, 5, 1]) // 2
+const sol2 = solution([4, 4, 2, 4], [5, 5, 2, 5]) // 3
+const sol3 = solution([2, 3, 4, 2], [2, 5, 7, 2]) // 2
 
+console.log({ sol1, sol2, sol3 })
